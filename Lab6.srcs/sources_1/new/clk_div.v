@@ -13,4 +13,5 @@ module clk_div(
         else
             COUNT = COUNT + 1;
     end
+
 endmodule
