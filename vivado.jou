@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 23:45:27 2022
+# Process ID: 15240
+# Current directory: D:/EE316/Lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21736 D:\EE316\Lab6\Lab6.xpr
+# Log file: D:/EE316/Lab6/vivado.log
+# Journal file: D:/EE316/Lab6\vivado.jou
+# Running On: DESKTOP-NKLNO4U, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16893 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/EE316/Lab6/Lab6.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/EE316/Lab6/Lab6.srcs/constrs_1
+file mkdir D:/EE316/Lab6/Lab6.srcs/constrs_1/new
+close [ open D:/EE316/Lab6/Lab6.srcs/constrs_1/new/Lab6_contraints.xdc w ]
+add_files -fileset constrs_1 D:/EE316/Lab6/Lab6.srcs/constrs_1/new/Lab6_contraints.xdc
+open_hw_manager
+close_hw_manager
+close [ open D:/EE316/Lab6/Lab6.srcs/sources_1/new/time_mux_state_machine.v w ]
+add_files D:/EE316/Lab6/Lab6.srcs/sources_1/new/time_mux_state_machine.v
+update_compile_order -fileset sources_1
+close [ open D:/EE316/Lab6/Lab6.srcs/sources_1/new/time_multiplexing_main.v w ]
+add_files D:/EE316/Lab6/Lab6.srcs/sources_1/new/time_multiplexing_main.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
